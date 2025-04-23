@@ -67,7 +67,7 @@ def run_ga(returns, generations=100, population_size=50, num_parents=10):
 # ---------------------------- STREAMLIT UI ----------------------------
 
 st.set_page_config(page_title="Genetic Portfolio Optimizer", layout="wide")
-st.title("🧬 Genetic AI: Portfolio Optimization App")
+st.title("𓄀 Agenetic AI: Portfolio Optimization App")
 
 tickers = st.sidebar.text_input("Enter comma-separated tickers:", "AAPL,MSFT,GOOGL,AMZN,NVDA").split(",")
 tickers = [ticker.strip().upper() for ticker in tickers]
